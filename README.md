@@ -11,12 +11,20 @@ This repository contains a collection of responsive landing pages built using HT
 - [Shop Jacket](/shop-jacket)
 
 ## Sneak-peak
-![obys]('./screenshots/obys.png')
-![dribble]('./screenshots/dribble.png')
-![model]('./screenshots/model.png')
-![mensfashion]('./screenshots/mensfashion.png')
-![a-cotton-weave.png]('./screenshots/a-cotton-weave.png')
-![trendline]('./screenshots/trendline.png')
-![shop-jacket]('./screenshots/shop-jacket.png')
+### Obys
+![obys](screenshots/obys.png)
+### Dribble
+![dribble](screenshots/dribble.png)
+### Model Management
+![model](screenshots/model.png)
+### Men's Fashion
+![mensfashion](screenshots/mensfashion.png)
+### A Cotton Weave
+![a-cotton-weave.png](screenshots/a-cotton-weave.png)
+### Trendline
+![trendline](screenshots/trendline.png)
+### Shop Jacket
+![shop-jacket](screenshots/shop-jacket.png)
+
 
 Feel free to explore each project folder for more details and to view the landing pages.
