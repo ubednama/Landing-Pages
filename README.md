@@ -1,33 +1,67 @@
 # Landing Page Collection
-This repository contains a collection of responsive landing pages built using HTML and CSS.
 
-## Projects
-- [Obys](/Obys)
-- [Dribble](/dribble)
-- [Model Management](/model-management)
-- [Men's Fashion](/Mens-Fashion)
-- [Trendline](/trendline)
-- [A Cotton Weave](/a-cotton-weave)
-- [Shop Jacket](/shop-jacket)
+A curated collection of responsive, high-performance landing pages and website clones. This project demonstrates proficiency in modern frontend web development, focusing on layout precision, interactive animations, and responsive design.
 
-## Demo
-[Link](https://landing-pages-coral.vercel.app/)
+## 🛠 Tech Stack
 
-## Sneak-peak
-### Obys
-![obys](screenshots/obys.png)
-### Dribble
-![dribble](screenshots/dribble.png)
+- **Core**: HTML5, CSS3, JavaScript (ES6+)
+- **Animation**: GSAP (GreenSock Animation Platform), ScrollTrigger
+- **Scroll**: Locomotive Scroll, Shery.js (for 3D effects)
+- **Icons**: Remix Icon
+- **Fonts**: Google Fonts
+
+## 🚀 Live Demo
+
+Check out the live version of these projects here:  
+**[https://landing-pages-coral.vercel.app/](https://landing-pages-coral.vercel.app/)**
+
+## 📂 Projects
+
+| Project Name         | Live Link                                                                |
+| :------------------- | :----------------------------------------------------------------------- |
+| **Obys Agency**      | [View Project](https://landing-pages-coral.vercel.app/obys/)             |
+| **Dribbble Clone**   | [View Project](https://landing-pages-coral.vercel.app/dribble/)          |
+| **Model Management** | [View Project](https://landing-pages-coral.vercel.app/model-management/) |
+| **Men's Fashion**    | [View Project](https://landing-pages-coral.vercel.app/mens-fashion/)     |
+| **Trendline**        | [View Project](https://landing-pages-coral.vercel.app/trendline/)        |
+| **A Cotton Weave**   | [View Project](https://landing-pages-coral.vercel.app/a-cotton-weave/)   |
+| **Shop Jacket**      | [View Project](https://landing-pages-coral.vercel.app/shop-jacket/)      |
+
+## 📸 Screenshots
+
+### Obys Agency
+
+![Obys Agency](screenshots/obys.png)
+
+### Dribbble Clone
+
+![Dribbble](screenshots/dribble.png)
+
 ### Model Management
-![model](screenshots/model.png)
+
+![Model Management](screenshots/model.png)
+
 ### Men's Fashion
-![mensfashion](screenshots/mensfashion.png)
-### A Cotton Weave
-![a-cotton-weave.png](screenshots/a-cotton-weave.png)
-### Trendline
-![trendline](screenshots/trendline.png)
-### Shop Jacket
-![shop-jacket](screenshots/shop-jacket.png)
 
+![Men's Fashion](screenshots/mensfashion.png)
 
-Feel free to explore each project folder for more details and to view the landing pages.
+## 🔧 Installation & Usage
+
+1. **Clone the repository:**
+
+   ```bash
+   git clone https://github.com/your-username/landing-pages.git
+   ```
+
+2. **Navigate to the project directory:**
+
+   ```bash
+   cd landing-pages
+   ```
+
+3. **Run locally:**
+   Since these are static pages, you can open `index.html` in your browser or use a live server extension (like Live Server in VS Code) to view them.
+
+---
+
+_Created by Ubednama_
