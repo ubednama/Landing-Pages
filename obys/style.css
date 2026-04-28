@@ -393,6 +393,10 @@
     font-size: 2vw;
     font-weight: 500;
   }
+  .allProjects h6,
+  .allProjects h6 span{
+    color: #1a1a1a;
+  }
   .allProjects h6{
     font-weight: 400;
   }
@@ -460,7 +464,7 @@
   .table {
     width: 60%;
     height: 80vh;
-    background: #3f7df4;
+    background: #1e40af;
     padding: 2.3vw;
     position: absolute;
     right: 0;
