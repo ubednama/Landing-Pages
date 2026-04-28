@@ -45,6 +45,18 @@ Check out the live version of these projects here:
 
 ![Men's Fashion](screenshots/mensfashion.png)
 
+### Trendline
+
+![Trendline](screenshots/trendline.png)
+
+### A Cotton Weave
+
+![A Cotton Weave](screenshots/a-cotton-weave.png)
+
+### Shop Jacket
+
+![Shop Jacket](screenshots/shop-jacket.png)
+
 ## 🔧 Installation & Usage
 
 1. **Clone the repository:**
