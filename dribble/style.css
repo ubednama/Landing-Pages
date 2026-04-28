@@ -67,6 +67,10 @@
     border: none;
     outline: none;
     font-weight: 600;
+    font-size: 1.1vw;
+    background-color: transparent;
+    cursor: pointer;
+    padding: 1.3vw 1.5vw;
   }
   #signIn{
     background-color: #0D0C22;
@@ -77,12 +81,15 @@
     outline: none;
     border: none;
     border-radius: 2vw;
+    cursor: pointer;
   }
   .signUps input{
     padding: 1.3vw 2vw;
     border-radius: 2vw;
     border: none;
     background-color: #FFFFFF;
+    font-size: 1.1vw;
+    font-family: inherit;
   }
   .links i{
     display: none;

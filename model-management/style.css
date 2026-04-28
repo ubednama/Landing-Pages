@@ -477,3 +477,190 @@ button:focus-visible {
   outline: 2px solid currentColor;
   outline-offset: 3px;
 }
+
+@media (max-width: 768px) {
+  .main .nav {
+    height: auto;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-top: 16px;
+    padding: 12px 0;
+    row-gap: 8px;
+  }
+  .main .nav h1 {
+    width: 100%;
+    height: 60px;
+    font-size: 32px;
+    justify-content: flex-start;
+    padding-left: 16px;
+  }
+  .main .nav h1::after {
+    top: 0;
+    right: auto;
+    left: 130px;
+    font-size: 16px;
+  }
+  .main .nav h1::before {
+    bottom: 8px;
+    right: auto;
+    left: 130px;
+    font-size: 12px;
+  }
+  .main .nav h2,
+  .main .nav h2:nth-last-child(1),
+  .main .nav h2:nth-last-child(2) {
+    width: auto;
+    flex: 1 1 auto;
+    height: 44px;
+    padding: 0 12px;
+    font-size: 14px;
+    border-right: none;
+    border-top: 1px solid #000;
+  }
+
+  .center {
+    height: auto;
+    padding: 6vw 4vw;
+  }
+  .center .content {
+    height: 60vh;
+  }
+  .center .overlay {
+    height: 60%;
+    padding: 5vw;
+  }
+  .center .over1 h1 {
+    font-size: 7vw;
+  }
+  .center .over1 h2 {
+    font-size: 3vw;
+    padding: 4vw 5vw;
+  }
+  .center .over2 h4 {
+    font-size: 3.5vw;
+  }
+  .center .over2 img {
+    height: 7vw;
+  }
+
+  .scroll {
+    height: 22vh;
+  }
+  .scroll .container img {
+    height: 18vh;
+    width: 18vh;
+  }
+
+  .alphabet {
+    height: auto;
+    padding: 12px 8px;
+    flex-wrap: wrap;
+    gap: 4px;
+  }
+  .alphabet h5 {
+    font-size: 14px;
+    margin-right: 8px;
+  }
+  .alphabet h6 {
+    font-size: 12px;
+    padding: 4px 8px;
+  }
+
+  .page2 {
+    flex-direction: column;
+    gap: 24px;
+    padding: 24px 16px;
+  }
+  .page2 .page2-part1,
+  .page2 .page2-part2 {
+    width: 100%;
+  }
+  .page2 .page2-part1 img,
+  .page2 .page2-part2 img {
+    width: 100%;
+    height: auto;
+  }
+  .page2 .page2-part2 .box {
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    margin-top: 12px;
+  }
+
+  .shot {
+    padding: 24px 16px;
+  }
+  .shot h2 {
+    font-size: 22px;
+  }
+  .shot .shot-section {
+    flex-direction: column;
+    gap: 24px;
+  }
+  .shot .shot-section .rotate,
+  .shot .shot-section .image {
+    width: 100%;
+    height: auto;
+  }
+  .shot .shot-section .rotate img {
+    width: 80%;
+  }
+  .shot .shot-section .rotate p {
+    font-size: 16px;
+    line-height: 24px;
+    padding-right: 0;
+    margin-top: 16px;
+  }
+  .shot .shot-section .image img {
+    width: 100%;
+    height: auto;
+  }
+
+  .full-image {
+    margin-top: 24px;
+    padding: 16px;
+    height: 50vh;
+  }
+  .full-image h5 {
+    font-size: 12px;
+    top: 24px;
+    right: 24px;
+  }
+
+  .page3 {
+    padding: 24px 16px;
+  }
+  .page3 > h1 {
+    font-size: 22px;
+    margin-bottom: 24px;
+  }
+  .elem {
+    height: auto;
+    padding: 16px 0;
+    gap: 12px;
+  }
+  .elem h4 {
+    font-size: 12px;
+    width: auto;
+  }
+  .elem .elem-part2 {
+    width: 60%;
+  }
+  .elem-part2 h1 {
+    font-size: 18px;
+  }
+  .elem-part2 h5 {
+    font-size: 11px;
+  }
+  .elem img {
+    height: 80px;
+    width: 80px;
+  }
+
+  .marque h1 {
+    font-size: 28px;
+    -webkit-text-stroke: 1px black;
+  }
+}
