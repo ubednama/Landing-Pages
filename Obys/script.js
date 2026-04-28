@@ -47,7 +47,7 @@ function gsapScrollTrigger() {
     tl.from(".loaderContent h1", {
       y: 150,
       opacity: 0,
-      duaration: 0.5,
+      duration: 0.5,
       delay: 1,
       stagger: 0.2,
     });
@@ -70,13 +70,13 @@ function gsapScrollTrigger() {
     tl.from(".waiting h3", {
       opacity: 0,
       y: 150,
-      duaration: 0.5,
+      duration: 0.5,
     });
     tl.to(".blink h2", {
       opacity: 0,
-      duaration: 2,
+      duration: 2,
       animationName: "blinker",
-      duaration: 0.2,
+      duration: 0.2,
     });
   
     tl.to("#loader .loaderContent h1, .timer h2, .waiting h3,.blink", {
@@ -101,23 +101,13 @@ function gsapScrollTrigger() {
     tl.from(".heroContent h2, .heroContent", {
       y: 150,
       opacity: 0,
-      // duaration : 0.1,
+      // duration : 0.1,
       stagger: 0.1,
     });
   }
   
   loadingAnimation();
   
-  // function crsr() {
-  //   let wrapper = document.querySelector("#wrapper");
-  //   document.body.addEventListener("mousemove", function (dets) {
-  //     gsap.to("#crsr", {
-  //       x: dets.x,
-  //       y: dets.y,
-  //     });
-  //   });
-  // }
-  // crsr();
   function sheryJS() {
     Shery.makeMagnet(".menus a" /* Element to target.*/, {
       //Parameters are optional.

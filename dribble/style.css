@@ -422,3 +422,10 @@
     gap: 1.2vw;
     color: #828282;
   }
+
+  a:focus-visible,
+  button:focus-visible,
+  input:focus-visible {
+    outline: 2px solid #ea4c89;
+    outline-offset: 3px;
+  }

@@ -143,10 +143,14 @@ body {
 .right .rotated {
   position: absolute;
   left: -13%;
-  /* background-color: red; */
   bottom: 2%;
-  /* rotate: -90deg; */
-  transform-origin: 0 0; /* rotate krne keliye */
+  transform-origin: 0 0;
   font-size: 35px;
   font-weight: 500;
+}
+
+a:focus-visible,
+button:focus-visible {
+  outline: 2px solid currentColor;
+  outline-offset: 3px;
 }
